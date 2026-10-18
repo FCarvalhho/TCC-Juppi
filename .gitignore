@@ -1,0 +1,61 @@
+# --- GERAL & SISTEMA OPERACIONAL ---
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+
+# --- DEPENDÊNCIAS GLOBAIS ---
+node_modules/
+target/
+build/
+dist/
+dist-ssr/
+*.local
+
+# --- IDES E EDITORES (VS Code, IntelliJ, NetBeans) ---
+.idea/
+*.iml
+*.ipr
+*.iws
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/
+!/packages/web/.vscode/extensions.json
+nbproject/
+.nb-gradle/
+.sts4-cache
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+# --- EXPO / REACT NATIVE (Mobile) ---
+.expo/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+*.tsbuildinfo
+# Nota: Se optar por build nativo gerenciado pelo Expo, pode ignorar /ios e /android. 
+# Se for usar prebuild contínuo, remova essas duas linhas abaixo:
+/ios
+/android
+
+# --- BACKEND / JAVA / GRADLE ---
+.gradle/
+out/
+bin/
+!gradle/wrapper/gradle-wrapper.jar

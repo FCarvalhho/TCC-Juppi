@@ -1,0 +1,12 @@
+# Padroniza arquivos de texto para LF no repositório
+* text=auto eol=lf
+
+# Garante que scripts de build do Gradle funcionem perfeitamente no Windows
+*.bat text eol=crlf
+mvnw text eol=crlf
+gradlew text eol=crlf
+
+# Trata arquivos binários para não sofrerem alterações de texto
+*.jar binary
+*.png binary
+*.jpg binary
